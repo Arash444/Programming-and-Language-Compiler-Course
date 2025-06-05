@@ -1,0 +1,16 @@
+# Sample 3
+function calculate(): int {
+  	int result = 5;
+
+  	int a = 10;
+  	a = a / 2 % 3 / 3;
+  	a = a + 4 - result;
+  	result = a - 1;
+  	result = result * result * result * (a * a * a / (result + 3));
+
+  	result = 3 + 56 - result / 2;
+return result;
+}
+main{
+  	int x;
+}
