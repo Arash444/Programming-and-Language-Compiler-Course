@@ -1,0 +1,42 @@
+MainBody
+VarDec: num_1
+VarDec: num_2
+Operator: -
+VarDec: flag
+Operator: ==
+VarDec: aA_2
+Operator: *
+Operator: +
+Operator: /
+Operator: -
+Operator: +
+Predicate: Predicate1
+Implication
+Built-in: print
+Implication
+Operator: %
+Operator: *
+Operator: >=
+VarDec: a2
+VarDec: num
+Operator: +
+Implication
+Operator: -
+Operator: >=
+Operator: &&
+Operator: +
+Operator: ==
+Operator: ||
+Operator: ||
+Predicate: IsPredicate
+Loop: for
+Implication
+Operator: ==
+Operator: &&
+Built-in: print
+Built-in: print
+Predicate: IsPredicate
+Predicate: EventNum
+VarDec: flag
+Built-in: print
+Predicate: EventNum

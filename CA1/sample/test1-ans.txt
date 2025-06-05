@@ -1,0 +1,44 @@
+FunctionDec: isDivisible
+ArgumentDec: a
+ArgumentDec: b
+Implication
+Operator: ==
+Return
+Implication
+Operator: %
+Operator: ==
+Return
+Implication
+Operator: %
+Operator: !=
+Return
+MainBody
+VarDec: num1
+Predicate: EvenNumber
+Implication
+Predicate: EvenNumber
+Operator: &&
+Predicate: DivisibleBy10
+VarDec: int_array
+VarDec: num2
+VarDec: divisible
+Loop: for
+Implication
+Operator: !
+Return
+Implication
+Operator: ==
+Predicate: DivisibleBy20
+Implication
+Predicate: DivisibleBy20
+Predicate: EvenNumber
+Predicate: DivisibleBy10
+Built-in: print
+Predicate: EvenNumber
+Built-in: print
+Predicate: DivisibleBy10
+Operator: *
+Operator: *
+Operator: /
+Operator: -
+Operator: +

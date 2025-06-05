@@ -1,0 +1,70 @@
+FunctionDec: randomFunc
+VarDec: a
+Predicate: IsRand
+Implication
+Operator: /
+Operator: *
+Operator: >=
+Operator: ==
+Predicate: IsRand
+Operator: !
+Operator: &&
+VarDec: flag
+Built-in: print
+Return
+Return
+FunctionDec: isPossible
+ArgumentDec: a
+ArgumentDec: b
+Predicate: IsLocal
+VarDec: local_array
+Operator: -
+Operator: -
+Loop: for
+VarDec: a
+Implication
+Operator: +
+Operator: +
+Operator: %
+Operator: ==
+Operator: &&
+Return
+Operator: +
+Built-in: print
+Predicate: IsLocal
+VarDec: c
+Operator: *
+Operator: +
+Operator: +
+MainBody
+VarDec: num1
+Operator: %
+Operator: +
+Operator: -
+Operator: -
+Operator: +
+Operator: +
+Operator: *
+Operator: +
+Operator: ==
+Operator: &&
+Operator: ||
+VarDec: num2
+Operator: -
+Predicate: DoCalc
+Implication
+Predicate: DoCalc
+Operator: &&
+Loop: for
+Built-in: print
+Implication
+Operator: +
+Operator: -
+Operator: !=
+Operator: !
+Operator: ||
+Return
+Predicate: EventNum
+VarDec: flag
+Built-in: print
+Predicate: EventNum
