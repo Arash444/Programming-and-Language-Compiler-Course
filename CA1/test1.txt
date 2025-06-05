@@ -1,0 +1,16 @@
+use namespace lex,
+Class
+
+Example {
+int 4a = 0x0g;
+char char = '15'
+string st0 = i0;
+}
+int main(double argc, char*** argv,) {
+Integer C,d,e;
+cout<<<<<< argc [new example (&argv[0])]<<<1 <<< #c;;
+1 + e <<= d +++ j + (++ !c) - 2c / 0;
+tex::print >> %d;
+[=, *this]{ };
+return null;
+@include <jostream>
